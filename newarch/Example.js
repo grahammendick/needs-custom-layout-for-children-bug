@@ -17,10 +17,10 @@ const Example = () => (
       </RightBar>
     </NavigationBar>
     <Text>
-      With the new React Native architecture, large titles only work the first
-      time you see them. Press the button and you'll see a large 'World' title
-      on the next screen. If you go back and press the button again then the
-      'World' title is small instead.
+      The new React Native architecture doesn't check needsCustomLayoutForChildren.
+      Press the 'Hello' button and you'll see the 'World' action view. The trouble is
+      that it can't be closed because React Native has positioned it over the top of
+      the 'close' arrow that should appear in the top left.
     </Text>
   </>
 );

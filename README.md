@@ -5,7 +5,7 @@ also be a button in the top left that closes the action view.
 
 ## Steps to recreate the problem
 1. cd to the `newarch` app
-2. Run `npm install` and `RCT_NEW_ARCH_ENABLED=1 pod install`
+2. Run `npm install`
 3. Run `npx react-native run-android`
 4. Press the 'Hello' button
 5. The 'World' action view appears

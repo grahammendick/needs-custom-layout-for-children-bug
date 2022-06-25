@@ -17,10 +17,9 @@ const Example = () => (
       </RightBar>
     </NavigationBar>
     <Text>
-      The new React Native architecture doesn't check needsCustomLayoutForChildren.
-      Press the 'Hello' button and you'll see the 'World' action view. The trouble is
-      that it can't be closed because React Native has positioned it over the top of
-      the 'close' arrow that should appear in the top left.
+      The old React Native architecture does check needsCustomLayoutForChildren. So
+      when you press the 'Hello' button you'll see the 'World' action view and a
+      'close' button in the top left.
     </Text>
   </>
 );
